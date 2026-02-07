@@ -25,9 +25,11 @@ function App() {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Routes>
         {/* SAFE GLOBAL AD (below content, above footer) */}
-        <div style={{ maxWidth: "1100px", margin: "40px auto" }}>
-          <Adsense slot="8351730639" />
-        </div>
+        <div
+            style={{ width: "100%", maxWidth: "1100px", margin: "40px auto" }}
+          >
+            <Adsense slot="8351730639" />
+          </div>
         <Footer />
       </div>
     </Router>
