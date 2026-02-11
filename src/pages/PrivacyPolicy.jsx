@@ -79,7 +79,7 @@ function PrivacyPolicy() {
         If you have any questions about this Privacy Policy, you can contact
         us at:
         <br />
-        <strong>Email:</strong> your-email@example.com
+        <strong>Email:</strong> anchal6704@gmail.com
       </p>
     </div>
   );

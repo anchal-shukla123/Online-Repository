@@ -85,12 +85,7 @@ const Home = () => {
           <div className="hero-circle hero-circle-3"></div>
         </div>
       </section>
-      {/* Ad after Hero */}
-      <div
-            style={{ width: "100%", maxWidth: "1100px", margin: "40px auto" }}
-          >
-            <Adsense slot="8351730639" />
-          </div>
+      
       {/* Features Section */}
       <section className="features-section">
         <div className="container">
@@ -113,12 +108,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/* Ad after Features */}
-     <div
-            style={{ width: "100%", maxWidth: "1100px", margin: "40px auto" }}
-          >
-            <Adsense slot="8351730639" />
-          </div>
+
       {/* CTA Section */}
       <section className="cta-section">
         <div className="container">
