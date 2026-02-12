@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://online-compiler-gold-gamma.vercel.app/sitemap.xml
+
+# Disallow admin or private paths (if any)
+# Disallow: /admin/
+
+# Allow all search engines to crawl the site

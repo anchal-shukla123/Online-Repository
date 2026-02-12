@@ -35,6 +35,14 @@ const Navbar = () => {
               <span className="link-text">Compiler</span>
               <span className="link-underline"></span>
             </Link>
+            
+            <Link 
+              to="/blog" 
+              className={`nav-link ${location.pathname.startsWith('/blog') ? 'active' : ''}`}
+            >
+              <span className="link-text">Blog</span>
+              <span className="link-underline"></span>
+            </Link>
             <Link 
               to="/about" 
               className={`nav-link ${location.pathname === '/about' ? 'active' : ''}`}
