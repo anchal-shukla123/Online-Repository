@@ -53,7 +53,7 @@ export default function Auth() {
         role,
       });
       if (err) { setError(err.message); setLoading(false); return; }
-      setSuccess('Account created! Check your email to confirm, then log in.');
+      setSuccess('Account created! Login to continue');
       setMode('login');
     }
 
